@@ -23,17 +23,6 @@ from PIL import Image, ImageTk
 CONFIG_PATH = Path(__file__).parent / "config.json"
 QUOTES_PATH = Path(__file__).parent / "quotes.json"
 
-DEFAULT_CONFIG = {
-    # Change this to the path of your Obsidian vault
-    "vault_path": "C:/Users/YourName/ObsidianVault",
-    # Subfolder inside the vault where daily proof goes
-    "subfolder": "DailyProof",
-    # Email settings - leave sender_email blank to disable sending entirely
-    "sender_email": "e.delaneyfn2187@gmail.com",
-    "sender_app_password": "ydhj qecs apkv cyum",
-    "supervisor_email": "kathryndelaney5@gmail.com",
-}
-
 # (internal_key, display_label) - what photos you need to upload
 CATEGORIES = [
     ("out_in_world", "Tree of the day"),
